@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'sans-serif';
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image:linear-gradient(to bottom right,rgb(82, 156, 203), rgb(207, 131, 186));
+}
+h1{
+    color: white;
+    margin: 0;
+    text-shadow: 2px 1px 1px black;
+    margin-top: 200px;
+}
