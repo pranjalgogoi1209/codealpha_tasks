@@ -8,57 +8,58 @@
 </head>
 <body>
     <div class="main">
+        <h1>CUSTOMER SURVEY FORM</h1>
         <form class="form">
             <div class="row">
                 <div class="input">
-                    <label for="name">First Name :
-                        <input type="text">
-                    </label>
+                    <label for="first-name">First Name :</label>
+                    <input type="text" id="first-name" placeholder="Enter Your First Name">
                 </div>
                 <div class="input">
-                    <label for="name">Last Name :
-                        <input type="text">
-                    </label>
+                    <label for="last-name">Last Name :</label>
+                    <input type="text" id="last-name" placeholder="Enter Your Last Name">
                 </div>
             </div>
 
             <div class="row">
                 <div class="input">
-                    <label for="name">Email :
-                        <input type="text">
-                    </label>
+                    <label for="email">Email :</label>
+                    <input type="text" id="email" placeholder="Enter Your email">      
                 </div>
                 <div class="input">
-                    <label for="name">Age :
-                        <input type="text">
-                    </label>
+                    <label for="age">Age :</label>
+                    <input type="text" id="age" placeholder="Enter Your Age">    
                 </div>
             </div>
 
             <div class="row">
                 <div class="input">
-                    <label for="name">Gender :
-                        <input type="text">
-                    </label>
+                    <label for="phone" >Phone No. :</label>
+                    <input type="text" id="phone" placeholder="Enter Your Phone Number">     
                 </div>
                 <div class="input">
-                    <label for="name">Phone No. :
-                        <input type="text">
-                    </label>
+                    <label for="state">State :</label>
+                    <input type="text" id="state" placeholder="Enter Your State">                 
                 </div>
             </div>
             
-            <div class="row">
-                <div class="input">
-                    <label for="name">State :
-                        <input type="text">
+            <div class="row gender">
+                <label class="head" for="gender">Gender :</label>
+                <div class="gender-input">
+                    <label for="male">
+                        <input type="radio" id="male" name="gender">Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" id="female" name="gender">Female
+                    </label>
+                    <label for="not-to-say">
+                        <input type="radio" id="not-to-say" name="gender">Prefer Not To Say
                     </label>
                 </div>
-                <div class="input">
-                    <label for="name">City :
-                        <input type="text">
-                    </label>
-                </div>
+            </div>
+
+            <div class="button">
+                <a href="./../secondPage/index.html">Next</a>
             </div>
         </form>
     </div>
